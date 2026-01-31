@@ -70,4 +70,28 @@ button {
 
 /* make sure your card stays above the background but below stickers */
 .container { position: relative; z-index: 1; }
+/* Cute floating stickers */
+.stickers {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.sticker {
+  position: absolute;
+  font-size: 44px;
+  opacity: 0.95;
+  animation: floaty 3.5s ease-in-out infinite;
+}
+
+.s1 { top: 20px; left: 20px; }
+.s2 { top: 20px; right: 20px; }
+.s3 { bottom: 20px; left: 20px; }
+.s4 { bottom: 20px; right: 20px; }
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
 
