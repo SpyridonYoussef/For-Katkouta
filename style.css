@@ -70,3 +70,4 @@ button {
 
 /* make sure your card stays above the background but below stickers */
 .container { position: relative; z-index: 1; }
+
