@@ -63,10 +63,10 @@ button {
 }
 
 /* corners */
-.s1 { top: 18px; left: 18px; }
-.s2 { top: 18px; right: 18px; }
-.s3 { bottom: 18px; left: 18px; }
-.s4 { bottom: 18px; right: 18px; }
+.s1 { top: 18px; left: 14px; }
+.s2 { top: 18px; right: 14px; }
+.s3 { bottom: 18px; left: 14px; }
+.s4 { bottom: 18px; right: 14px; }
 
 /* make sure your card stays above the background but below stickers */
 .container { position: relative; z-index: 1; }
